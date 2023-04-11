@@ -21,14 +21,15 @@
             android:id="@+id/main_no_items_image"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:src="@android:drawable/ic_menu_edit"/>
+            android:src="@android:drawable/ic_menu_edit"
+            android:contentDescription="TODO" />
         
         <TextView
             android:id="@+id/main_no_items_label"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/No_items_text"
-            android:textSize="24dp"/>
+            android:textSize="24sp"/>
 
 
     </LinearLayout>
@@ -36,6 +37,7 @@
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/main_RecyclerView"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"/>
+        android:layout_height="match_parent"
+        app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

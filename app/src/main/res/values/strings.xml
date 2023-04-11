@@ -1,4 +1,5 @@
 <resources>
     <string name="app_name">RecyclerViewView228</string>
     <string name="No_items_text">Добавьте задачу</string>
+    <string name="buy_potato">купить картошечки</string>
 </resources>
